@@ -8,6 +8,7 @@ This is a command-line shell implemented in C++. It supports both interactive an
 ## Invocation
 
 *   **Interactive mode (no arguments)**
+      
     To start the shell in interactive mode, simply run the executable without any arguments as shown below:
     ```
     prompt> ./shell
@@ -17,6 +18,7 @@ This is a command-line shell implemented in C++. It supports both interactive an
     The above starts the shell in interactive mode, where you can type commands directly at the prompt.
 
 *   **Batch mode (one argument - input file name)**
+   
     To run the shell in batch mode, provide a text file containing the commands you want to execute as a single command-line argument as shown below:
     ```
     prompt> ./shell batch.txt
